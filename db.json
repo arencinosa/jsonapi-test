@@ -1,70 +1,70 @@
 {
 	"contacts": [
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Elisabeth",
 			"last_name": "Cousins",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 1
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Romeo",
 			"last_name": "Plummer",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 2
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Callie",
 			"last_name": "Hodson",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 3
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Brandy",
 			"last_name": "Weeks",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 4
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Frankie",
 			"last_name": "Ellwood",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 5
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Sol",
 			"last_name": "Bryant",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 6
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Zunaira",
 			"last_name": "Ferrell",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 7
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Masuma",
 			"last_name": "Osborn",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 8
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Nicolle",
 			"last_name": "Mueller",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
 			"job_title_id": 9
 		},
 		{
-			// first & last names taken from https://www.name-generator.org.uk/quick/
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
 			"first_name": "Brodie",
 			"last_name": "Keenan",
 			"profile_photo": "https://www.thispersondoesnotexist.com/image",
