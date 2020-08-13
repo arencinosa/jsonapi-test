@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact list - example</title>
+
+	<style type="text/css">
+		#contacts {
+			width: 90%;
+			height: 100%;
+			margin-left: 50%;
+			transform: translateX(-50%);
+		}
+		.contacts-list {
+			position: absolute;
+			float: left;
+			display: inline-block;
+			width: 20%;
+		}
+		.contacts-list ul {
+			list-style: none;
+		}
+		.contacts-list li {
+			cursor: pointer;
+			color: blue;
+		}
+		.contacts-list li.selected {
+			cursor: default;
+			font-weight: bolder;
+			color: black;
+			border: dashed 1px lightgray;
+		}
+		#contact-card {
+			position: relative;
+			left: 20%;
+			margin-left: 2em;
+			padding-left: 2em;
+			border-left: solid 1px gray;
+			display: inline-block;
+		}
+		.contact-photo img {
+			width: 30%;
+			height: auto;
+			border-radius: 3px;
+		}
+		.contact-info-container label {
+			color: gray;
+			font-family: monospace;
+		}
+		.contact-info-container label:after {
+			content: ':';
+		}
+	</style>
+	<script type="text/javascript">
+		function select_contact(e) {
+			let currentSelection = document.querySelector('li.selected');
+			if (currentSelection) {
+				currentSelection.classList.toggle('selected');
+			}
+
+			let elem = (e) ? e.target : document.querySelector('li');
+			elem.classList.toggle('selected');
+
+			let c = contacts[elem.dataset.id];
+
+			let photo = document.querySelector('#contact-card .contact-photo img');
+			photo.src = c.profile_photo;
+			photo.alt = elem.textContent;
+			let firstName = document.querySelector('#first-name');
+			firstName.textContent = c.first_name;
+			let lastName = document.querySelector('#last-name');
+			lastName.textContent = c.last_name;
+			let jobTitle = document.querySelector('#job-title');
+			jobTitle.textContent = c.job_title;
+		}
+
+		var contacts = {};
+		function init() {
+			fetch('https://my-json-server.typicode.com/arencinosa/jsonapi-test/contacts')
+				.then(response => response.json())
+				.then(data => {
+					for (d of data) {
+						contacts[d.id] = d;
+					}
+
+					fetch('https://my-json-server.typicode.com/arencinosa/jsonapi-test/job_titles')
+						.then(response => response.json())
+						.then(data => {
+							let jobTitles = {};
+							for (let jt of data) {
+								jobTitles[jt.id] = jt.name;
+							}
+							let contactsList = document.querySelector('.contacts-list ul');
+							for (let c_id in contacts) {
+								let c = contacts[c_id]
+
+								c.job_title = jobTitles[c.job_title_id];
+								let item = document.createElement('li');
+								item.dataset.id = c.id;
+								item.textContent = c.first_name + ' ' + c.last_name;
+								item.alt = item.textContent;
+								item.onclick = select_contact;
+								contactsList.append(item);
+							}
+							select_contact();
+						});
+				});
+		}
+	</script>
+</head>
+<body onload="init()">
+
+<div id="contacts">
+	<div class="contacts-list">
+		<h2>Contacts</h2>
+		<ul></ul>
+	</div>
+	<div id="contact-card">
+		<div class="contact-photo">
+			<img src="#" alt="" />
+		</div>
+		<div class="contact-info">
+			<div class="contact-info-container">
+				<label>First name</label>
+				<span id="first-name"></span>
+			</div>
+			<div class="contact-info-container">
+				<label>Last name</label>
+				<span id="last-name"></span>
+			</div>
+			<div class="contact-info-container">
+				<label>Job Title</label>
+				<span id="job-title"></span>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
