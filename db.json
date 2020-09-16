@@ -19,28 +19,7 @@
 			"id": "oly",
 			"name": "Olympiques",
 			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/oly.jpg"
-		},
-		{
-			"id": "wha",
-			"name": "Whalers",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/wha.jpg"
-		},
-		{
-			"id": "thu",
-			"name": "Thunderbirds",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/thu.jpg"
-		},
-		{
-			"id": "cat",
-			"name": "Cataractes",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/cat.jpg"
-		},
-		{
-			"id": "spi",
-			"name": "Spitfires",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/spi.jpg"
 		}
-
 	],
 
 	"matches": [
@@ -58,66 +37,22 @@
 		{
 			"p1" : {
 				"id": "bul",
-				"score": 2
+				"score": 3
 			},
 			"p2" : {
 				"id": "sil",
-				"score": 0
+				"score": 5
 			}
 		},
         
 		{
 			"p1" : {
 				"id": "bul",
-				"score": 2
+				"score": 0
 			},
 			"p2" : {
 				"id": "oly",
-				"score": 5
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "bul",
-				"score": 5
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "bul",
 				"score": 2
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 5
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "bul",
-				"score": 2
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "bul",
-				"score": 1
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 5
 			}
 		},
         
@@ -128,72 +63,28 @@
 			},
 			"p2" : {
 				"id": "bul",
-				"score": 1
+				"score": 0
 			}
 		},
         
 		{
 			"p1" : {
 				"id": "whe",
-				"score": 4
+				"score": 3
 			},
 			"p2" : {
 				"id": "sil",
-				"score": 5
+				"score": 3
 			}
 		},
         
 		{
 			"p1" : {
 				"id": "whe",
-				"score": 0
+				"score": 1
 			},
 			"p2" : {
 				"id": "oly",
-				"score": 2
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "whe",
-				"score": 2
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "whe",
-				"score": 0
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "whe",
-				"score": 4
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "whe",
-				"score": 2
-			},
-			"p2" : {
-				"id": "spi",
 				"score": 0
 			}
 		},
@@ -201,11 +92,11 @@
 		{
 			"p1" : {
 				"id": "sil",
-				"score": 1
+				"score": 4
 			},
 			"p2" : {
 				"id": "bul",
-				"score": 1
+				"score": 4
 			}
 		},
         
@@ -216,17 +107,6 @@
 			},
 			"p2" : {
 				"id": "whe",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "sil",
-				"score": 4
-			},
-			"p2" : {
-				"id": "oly",
 				"score": 3
 			}
 		},
@@ -234,51 +114,18 @@
 		{
 			"p1" : {
 				"id": "sil",
-				"score": 4
+				"score": 3
 			},
 			"p2" : {
-				"id": "wha",
-				"score": 2
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "sil",
-				"score": 4
-			},
-			"p2" : {
-				"id": "thu",
+				"id": "oly",
 				"score": 0
 			}
 		},
         
 		{
 			"p1" : {
-				"id": "sil",
-				"score": 4
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "sil",
-				"score": 3
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
 				"id": "oly",
-				"score": 3
+				"score": 2
 			},
 			"p2" : {
 				"id": "bul",
@@ -289,7 +136,7 @@
 		{
 			"p1" : {
 				"id": "oly",
-				"score": 2
+				"score": 1
 			},
 			"p2" : {
 				"id": "whe",
@@ -300,363 +147,11 @@
 		{
 			"p1" : {
 				"id": "oly",
-				"score": 4
-			},
-			"p2" : {
-				"id": "sil",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "oly",
-				"score": 1
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "oly",
-				"score": 0
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "oly",
-				"score": 3
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "oly",
-				"score": 5
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 0
-			},
-			"p2" : {
-				"id": "bul",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 0
-			},
-			"p2" : {
-				"id": "whe",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 2
-			},
-			"p2" : {
-				"id": "sil",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 3
-			},
-			"p2" : {
-				"id": "oly",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 0
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 1
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "wha",
-				"score": 4
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 1
-			},
-			"p2" : {
-				"id": "bul",
-				"score": 2
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 4
-			},
-			"p2" : {
-				"id": "whe",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 2
-			},
-			"p2" : {
-				"id": "sil",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 4
-			},
-			"p2" : {
-				"id": "oly",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 0
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 3
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 5
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "thu",
-				"score": 0
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
-				"score": 3
-			},
-			"p2" : {
-				"id": "bul",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
-				"score": 3
-			},
-			"p2" : {
-				"id": "whe",
-				"score": 2
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
 				"score": 3
 			},
 			"p2" : {
 				"id": "sil",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
 				"score": 3
-			},
-			"p2" : {
-				"id": "oly",
-				"score": 2
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
-				"score": 2
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
-				"score": 0
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "cat",
-				"score": 0
-			},
-			"p2" : {
-				"id": "spi",
-				"score": 1
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 3
-			},
-			"p2" : {
-				"id": "bul",
-				"score": 4
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 3
-			},
-			"p2" : {
-				"id": "whe",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 3
-			},
-			"p2" : {
-				"id": "sil",
-				"score": 0
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 2
-			},
-			"p2" : {
-				"id": "oly",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 3
-			},
-			"p2" : {
-				"id": "wha",
-				"score": 5
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 1
-			},
-			"p2" : {
-				"id": "thu",
-				"score": 3
-			}
-		},
-        
-		{
-			"p1" : {
-				"id": "spi",
-				"score": 4
-			},
-			"p2" : {
-				"id": "cat",
-				"score": 5
 			}
 		}
 	]
