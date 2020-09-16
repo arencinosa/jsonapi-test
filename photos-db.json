@@ -1,0 +1,127 @@
+{
+	"contacts": [
+		{
+			"id": 1,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Elisabeth",
+			"last_name": "Cousins",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/1.jpg",
+			"job_title_id": 1
+		},
+		{
+			"id": 2,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Romeo",
+			"last_name": "Plummer",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/3.jpg",
+			"job_title_id": 2
+		},
+		{
+			"id": 3,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Callie",
+			"last_name": "Hodson",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/2.jpg",
+			"job_title_id": 3
+		},
+		{
+			"id": 4,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Brandy",
+			"last_name": "Weeks",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/4.jpg",
+			"job_title_id": 4
+		},
+		{
+			"id": 5,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Frankie",
+			"last_name": "Ellwood",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/8.jpg",
+			"job_title_id": 5
+		},
+		{
+			"id": 6,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Sol",
+			"last_name": "Bryant",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/5.jpg",
+			"job_title_id": 6
+		},
+		{
+			"id": 7,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Zunaira",
+			"last_name": "Ferrell",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/6.jpg",
+			"job_title_id": 7
+		},
+		{
+			"id": 8,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Masuma",
+			"last_name": "Osborn",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/7.jpg",
+			"job_title_id": 8
+		},
+		{
+			"id": 9,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Nicolle",
+			"last_name": "Mueller",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/10.jpg",
+			"job_title_id": 9
+		},
+		{
+			"id": 10,
+			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
+			"first_name": "Brodie",
+			"last_name": "Keenan",
+			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/9.jpg",
+			"job_title_id": 10
+		}
+	],
+
+	"job_titles": [
+		{
+			"id": 1,
+			"name": "Front-end developer"
+		},
+		{
+			"id": 2,
+			"name": "Back-end developer"
+		},
+		{
+			"id": 3,
+			"name": "Full-stack developer"
+		},
+		{
+			"id": 4,
+			"name": "Software developer - Team Lead"
+		},
+		{
+			"id": 5,
+			"name": "Architect software developer"
+		},
+		{
+			"id": 6,
+			"name": "Project manager"
+		},
+		{
+			"id": 7,
+			"name": "Quality Assurance Lead"
+		},
+		{
+			"id": 8,
+			"name": "Product manager"
+		},
+		{
+			"id": 9,
+			"name": "CTO"
+		},
+		{
+			"id": 10,
+			"name": "CEO"
+		}
+	]
+}

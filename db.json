@@ -1,127 +1,664 @@
 {
-	"contacts": [
+	"teams": [
 		{
-			"id": 1,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Elisabeth",
-			"last_name": "Cousins",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/1.jpg",
-			"job_title_id": 1
+			"id": "bul",
+			"name": "Bulls",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/bul.jpg"
 		},
 		{
-			"id": 2,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Romeo",
-			"last_name": "Plummer",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/3.jpg",
-			"job_title_id": 2
+			"id": "whe",
+			"name": "Wheat Kings",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/whe.jpg"
 		},
 		{
-			"id": 3,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Callie",
-			"last_name": "Hodson",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/2.jpg",
-			"job_title_id": 3
+			"id": "sil",
+			"name": "Silvertips",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/sil.jpg"
 		},
 		{
-			"id": 4,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Brandy",
-			"last_name": "Weeks",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/4.jpg",
-			"job_title_id": 4
+			"id": "oly",
+			"name": "Olympiques",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/oly.jpg"
 		},
 		{
-			"id": 5,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Frankie",
-			"last_name": "Ellwood",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/8.jpg",
-			"job_title_id": 5
+			"id": "wha",
+			"name": "Whalers",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/wha.jpg"
 		},
 		{
-			"id": 6,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Sol",
-			"last_name": "Bryant",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/5.jpg",
-			"job_title_id": 6
+			"id": "thu",
+			"name": "Thunderbirds",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/thu.jpg"
 		},
 		{
-			"id": 7,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Zunaira",
-			"last_name": "Ferrell",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/6.jpg",
-			"job_title_id": 7
+			"id": "cat",
+			"name": "Cataractes",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/cat.jpg"
 		},
 		{
-			"id": 8,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Masuma",
-			"last_name": "Osborn",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/7.jpg",
-			"job_title_id": 8
-		},
-		{
-			"id": 9,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Nicolle",
-			"last_name": "Mueller",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/10.jpg",
-			"job_title_id": 9
-		},
-		{
-			"id": 10,
-			"_comment": "First & last names taken from https://www.name-generator.org.uk/quick/",
-			"first_name": "Brodie",
-			"last_name": "Keenan",
-			"profile_photo": "https://github.com/arencinosa/jsonapi-test/raw/master/photos/9.jpg",
-			"job_title_id": 10
+			"id": "spi",
+			"name": "Spitfires",
+			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/spi.jpg"
 		}
+
 	],
 
-	"job_titles": [
+	"matches": [
 		{
-			"id": 1,
-			"name": "Front-end developer"
+			"p1" : {
+				"id": "bul",
+				"score": 0
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 1
+			},
 		},
+        
 		{
-			"id": 2,
-			"name": "Back-end developer"
+			"p1" : {
+				"id": "bul",
+				"score": 2
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 0
+			},
 		},
+        
 		{
-			"id": 3,
-			"name": "Full-stack developer"
+			"p1" : {
+				"id": "bul",
+				"score": 2
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 5
+			},
 		},
+        
 		{
-			"id": 4,
-			"name": "Software developer - Team Lead"
+			"p1" : {
+				"id": "bul",
+				"score": 5
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 3
+			},
 		},
+        
 		{
-			"id": 5,
-			"name": "Architect software developer"
+			"p1" : {
+				"id": "bul",
+				"score": 2
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 5
+			},
 		},
+        
 		{
-			"id": 6,
-			"name": "Project manager"
+			"p1" : {
+				"id": "bul",
+				"score": 2
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 3
+			},
 		},
+        
 		{
-			"id": 7,
-			"name": "Quality Assurance Lead"
+			"p1" : {
+				"id": "bul",
+				"score": 1
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 5
+			},
 		},
+        
 		{
-			"id": 8,
-			"name": "Product manager"
+			"p1" : {
+				"id": "whe",
+				"score": 5
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 1
+			},
 		},
+        
 		{
-			"id": 9,
-			"name": "CTO"
+			"p1" : {
+				"id": "whe",
+				"score": 4
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 5
+			},
 		},
+        
 		{
-			"id": 10,
-			"name": "CEO"
-		}
+			"p1" : {
+				"id": "whe",
+				"score": 0
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 2
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "whe",
+				"score": 2
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "whe",
+				"score": 0
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "whe",
+				"score": 4
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "whe",
+				"score": 2
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 1
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 4
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 4
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 4
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 2
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 4
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 4
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "sil",
+				"score": 3
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 3
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 2
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 4
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 1
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 0
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 3
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "oly",
+				"score": 5
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 0
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 0
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 2
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 3
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 0
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 1
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "wha",
+				"score": 4
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 1
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 2
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 4
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 2
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 4
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 0
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 3
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 5
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "thu",
+				"score": 0
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 3
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 3
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 2
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 3
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 3
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 2
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 2
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 0
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "cat",
+				"score": 0
+			},
+			"p2" : {
+				"id": "spi",
+				"score": 1
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 3
+			},
+			"p2" : {
+				"id": "bul",
+				"score": 4
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 3
+			},
+			"p2" : {
+				"id": "whe",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 3
+			},
+			"p2" : {
+				"id": "sil",
+				"score": 0
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 2
+			},
+			"p2" : {
+				"id": "oly",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 3
+			},
+			"p2" : {
+				"id": "wha",
+				"score": 5
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 1
+			},
+			"p2" : {
+				"id": "thu",
+				"score": 3
+			},
+		},
+        
+		{
+			"p1" : {
+				"id": "spi",
+				"score": 4
+			},
+			"p2" : {
+				"id": "cat",
+				"score": 5
+			},
+		},
+
 	]
 }
