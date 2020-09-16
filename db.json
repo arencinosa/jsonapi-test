@@ -3,22 +3,22 @@
 		{
 			"id": "bul",
 			"name": "Bulls",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/bul.jpg"
+			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/bul.png"
 		},
 		{
 			"id": "whe",
 			"name": "Wheat Kings",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/whe.jpg"
+			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/whe.png"
 		},
 		{
 			"id": "sil",
 			"name": "Silvertips",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/sil.jpg"
+			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/sil.png"
 		},
 		{
 			"id": "oly",
 			"name": "Olympiques",
-			"logo": "https://github.com/arencinosa/jsonapi-test/raw/master/logos/oly.jpg"
+			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/oly.png"
 		}
 	],
 
