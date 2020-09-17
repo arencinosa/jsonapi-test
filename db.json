@@ -1,157 +1,169 @@
 {
-	"teams": [
+	"teams" : [
 		{
-			"id": "bul",
-			"name": "Bulls",
-			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/bul.png"
+			"id" : "bul",
+			"name" : "Bulls",
+			"logo" : "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/bul.png"
 		},
 		{
-			"id": "whe",
-			"name": "Wheat Kings",
-			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/whe.png"
+			"id" : "whe",
+			"name" : "Wheat Kings",
+			"logo" : "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/whe.png"
 		},
 		{
-			"id": "sil",
-			"name": "Silvertips",
-			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/sil.png"
+			"id" : "sil",
+			"name" : "Silvertips",
+			"logo" : "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/sil.png"
 		},
 		{
-			"id": "oly",
-			"name": "Olympiques",
-			"logo": "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/oly.png"
+			"id" : "oly",
+			"name" : "Olympiques",
+			"logo" : "https://raw.githubusercontent.com/arencinosa/jsonapi-test/master/logos/oly.png"
 		}
 	],
 
-	"matches": [
+	"matches" : [
 		{
-			"p1" : {
-				"id": "bul",
-				"score": 0
+			"date" : "2020-09-02",
+			"local" : {
+				"id" : "bul",
+				"score" : 6
 			},
-			"p2" : {
-				"id": "whe",
-				"score": 1
+			"visitor" : {
+				"id" : "whe",
+				"score" : 3
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "bul",
-				"score": 3
+			"date" : "2020-09-06",
+			"local" : {
+				"id" : "bul",
+				"score" : 2
 			},
-			"p2" : {
-				"id": "sil",
-				"score": 5
+			"visitor" : {
+				"id" : "sil",
+				"score" : 5
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "bul",
-				"score": 0
+			"date" : "2020-09-22",
+			"local" : {
+				"id" : "bul",
+				"score" : -1
 			},
-			"p2" : {
-				"id": "oly",
-				"score": 2
+			"visitor" : {
+				"id" : "oly",
+				"score" : -1
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "whe",
-				"score": 5
+			"date" : "2020-09-10",
+			"local" : {
+				"id" : "whe",
+				"score" : 7
 			},
-			"p2" : {
-				"id": "bul",
-				"score": 0
+			"visitor" : {
+				"id" : "bul",
+				"score" : 4
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "whe",
-				"score": 3
+			"date" : "2020-09-22",
+			"local" : {
+				"id" : "whe",
+				"score" : -1
 			},
-			"p2" : {
-				"id": "sil",
-				"score": 3
+			"visitor" : {
+				"id" : "sil",
+				"score" : -1
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "whe",
-				"score": 1
+			"date" : "2020-09-06",
+			"local" : {
+				"id" : "whe",
+				"score" : 4
 			},
-			"p2" : {
-				"id": "oly",
-				"score": 0
+			"visitor" : {
+				"id" : "oly",
+				"score" : 6
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "sil",
-				"score": 4
+			"date" : "2020-09-16",
+			"local" : {
+				"id" : "sil",
+				"score" : 4
 			},
-			"p2" : {
-				"id": "bul",
-				"score": 4
+			"visitor" : {
+				"id" : "bul",
+				"score" : 6
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "sil",
-				"score": 4
+			"date" : "2020-09-25",
+			"local" : {
+				"id" : "sil",
+				"score" : -1
 			},
-			"p2" : {
-				"id": "whe",
-				"score": 3
+			"visitor" : {
+				"id" : "whe",
+				"score" : -1
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "sil",
-				"score": 3
+			"date" : "2020-09-02",
+			"local" : {
+				"id" : "sil",
+				"score" : 5
 			},
-			"p2" : {
-				"id": "oly",
-				"score": 0
+			"visitor" : {
+				"id" : "oly",
+				"score" : 3
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "oly",
-				"score": 2
+			"date" : "2020-09-25",
+			"local" : {
+				"id" : "oly",
+				"score" : -1
 			},
-			"p2" : {
-				"id": "bul",
-				"score": 4
+			"visitor" : {
+				"id" : "bul",
+				"score" : -1
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "oly",
-				"score": 1
+			"date" : "2020-09-16",
+			"local" : {
+				"id" : "oly",
+				"score" : 7
 			},
-			"p2" : {
-				"id": "whe",
-				"score": 1
+			"visitor" : {
+				"id" : "whe",
+				"score" : 3
 			}
 		},
         
 		{
-			"p1" : {
-				"id": "oly",
-				"score": 3
+			"date" : "2020-09-10",
+			"local" : {
+				"id" : "oly",
+				"score" : 5
 			},
-			"p2" : {
-				"id": "sil",
-				"score": 3
+			"visitor" : {
+				"id" : "sil",
+				"score" : 2
 			}
 		}
 	]
